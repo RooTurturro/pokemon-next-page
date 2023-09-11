@@ -32,7 +32,7 @@ export const PokemonCard: FC<Props> = ({pokemon}) => {
         <Card.Footer>
           <Row justify='space-between'>
             <Text transform='capitalize'>{pokemon.name}</Text>
-            <Text>{pokemon.id}</Text>
+            <Text>#{pokemon.id}</Text>
           </Row>
         </Card.Footer>
       </Card>
